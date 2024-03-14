@@ -1,0 +1,130 @@
+.container{
+    width: 100%;
+    padding: 15px;
+    float: left;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: rgb(47, 93, 208);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    width: 100%;
+    background-color: rgb(221, 65, 65);
+    height: 70px;
+    display: flex;
+    float: lef;
+    align-items: center;
+    display: inline;
+}
+nav ul{
+    list-style-type: none;
+}
+
+li {
+    display: inline;
+  }
+a {
+    display: black;
+    text-decoration: none;
+    color: white;
+    padding: 10px, 15px;
+    font-size: 18px;
+    text-transform: uppercase;
+
+
+}
+
+main{
+    width: 100;
+}
+
+section.banner{
+    width: 100%;
+    height: 20vh;
+    background-color: rgb(135, 214, 66);
+}
+
+section.sec-1{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 15px;
+}
+
+section.sec-1 .circle{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(248, 19, 19);
+    margin-left: 20px;
+    border-radius: 50%;
+}
+
+section.sec-2{
+    width: 100%;
+}
+
+section.sec-2::after
+    content
+    display block
+    clear both
+
+section.sec-2 article{
+    float: left;
+    width: 50%;
+    height: 100px;
+    background-color: blueviolet;
+}
+
+section.sec-2 aside{
+    width: 45%;
+    float: right;
+    height: 500px;
+    /*background-color: greenyellow;*/
+    display: flex;
+    flex-direction: column;
+}
+
+section.sec-2 aside .rightsidebar{
+width: 100%;
+background-color: bisque;
+height: 30%;
+margin-bottom: 5%;
+}
+
+section.sec-2 aside .rightsidebar{
+    margin-bottom: 0;
+}
+
+section.se-3{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+    margin-top: 15px;
+}
+
+section.sec-3 .grid{
+width: 20%;
+height: 100%;
+background-color: cornflowerblue;
+}
+
+footer{
+    margin-top: 15px;
+    background-color: pink;
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px
+
+}
+
+h1{
+    text-align: center;
+    padding: 15px;
+}
